@@ -1,13 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family:"Roboto";
+    font-size:16px;
 }
 
 .sidebar{
     width:200px;
     height:100vh;
-    background-color:pink;
     border:5px solid black;
     display:flex;
     flex-direction:column;
@@ -16,28 +19,28 @@
    
 }
 .image{
-    border:5px solid green;
-    width:5vw;
-    height:auto;
+    width:100%;
+    height: auto;
 }
+
 
 ul{
-    height:50vh;
-
+    height:25vh;
     display:flex;
     flex-direction: column;
-   justify-content: space-between;
+    justify-content:space-between;
 }
 li{
-    border:5px solid purple;
     list-style-type: none;
     text-align:center;
+    background-color: #dcd4d4;
    
 }
 a{
     text-decoration:none;
     color:#2b2b2b;
     cursor:pointer;
+   
    
 }
 a:hover{
@@ -46,10 +49,14 @@ a:hover{
    
 }
 .last_part{
-    border:5px solid blue;
-   display:flex;
-   justify-content: space-evenly;
-   align-items: center;
+  
+  display:flex;
+  flex-direction:column; 
+  text-align:center;
 }
-
-
+label{
+    padding:1rem;
+}
+input{
+    border-color:#2b2b2b;
+}
